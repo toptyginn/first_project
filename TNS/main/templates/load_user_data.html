@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'js/loading.js' %}"></script>
+</head>
+<body>
+    <h1>Telegram Web App Integration</h1>
+    <form id="userDataForm" method="post" action="{% url 'register_view' %}">
+        {% csrf_token %}
+        <input type="hidden" name="tg_user_id" id="tg_user_id">
+        <input type="hidden" name="tg_user_name" id="tg_user_name">
+        <input type="hidden" name="tg_first_name" id="tg_first_name">
+        <input type="hidden" name="tg_last_name" id="tg_last_name">
+        <input type="hidden" name="tg_photo_url" id="tg_photo_url">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="loadingScreen" style="display:none;">
+        <h2>Processing...</h2>
+        <p>Please wait while we process your data.</p>
+    </div>
+</body>
+</html>

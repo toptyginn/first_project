@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block header %}User Profile{% endblock %}
+
+{% block content %}
+<div class="profile-card">
+    <img src="{{ user_profile.profile_picture.url }}" alt="Profile Picture">
+    <p>Name: {{ user_profile.user.first_name }} {{ user_profile.user.last_name }}</p>
+    <p>Wallet Address: {{ user_profile.wallet_address }}</p>
+    <p>XP: {{ user_profile.xp }}</p>
+    <p>Coins: {{ user_profile.coins }}</p>
+    <button class="timer-button">Water <span id="timer">6:00:00</span></button>
+</div>
+{% endblock %}
+</html>
