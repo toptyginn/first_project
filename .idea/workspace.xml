@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a5e5190-9574-4662-93fa-0f47c9ed0539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestGPT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/static/js/friends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/static/js/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/boosts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/friends.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/grow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/load_user_data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/templates/tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TNS/main/urls.py" afterDir="false" />
+    <list default="true" id="2a5e5190-9574-4662-93fa-0f47c9ed0539" name="Changes" comment="s7 airlines">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.bot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,6 +57,42 @@
       <option name="presentableId" value="Default" />
       <updated>1724585148435</updated>
     </task>
+    <task id="LOCAL-00001" summary="s7 airlines">
+      <option name="closed" value="true" />
+      <created>1725627322334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725627322334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="s7 airlines" />
+    <option name="LAST_COMMIT_MESSAGE" value="s7 airlines" />
   </component>
 </project>
