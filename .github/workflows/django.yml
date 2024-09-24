@@ -21,11 +21,12 @@ jobs:
       uses: GlueOps/github-actions-build-push-containers@v0.4.1
       with:
         # The Dockerfile filename
-        dockerfile: 'Dockerfile.django'
+        dockerfile: 'TNS/Dockerfile.django'
         # The container registry to push the image to
         registry: ghcr.io
         # The username for authentication to the container registry (defaults to the github.actor)
         registry-username: ${{ github.actor }}
         # Docker image is named after repository
         image_name: ${{ github.repository }}-django
+        context: TNS
               
