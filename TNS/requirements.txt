@@ -1,0 +1,26 @@
+# Основной фреймворк Django
+Django==4.2
+
+# Для работы с PostgreSQL (если используется PostgreSQL)
+psycopg2-binary==2.9.6
+
+# Для поддержки работы с окружением (env-переменные)
+python-decouple==3.8
+
+# Для управления CORS (если необходимо)
+django-cors-headers==3.14.0
+
+# Для работы с REST API (если нужно использовать DRF)
+djangorestframework==3.14.0
+
+# Для поддержки JWT токенов (если используете аутентификацию через JWT)
+djangorestframework-simplejwt==5.2.2
+
+# Для работы со статикой (например, если используется WhiteNoise)
+whitenoise==6.5.0
+
+# Если используете Django для работы с базой данных через ORM
+django-environ==0.10.0
+
+# Для тестирования
+pytest-django==4.5.2
