@@ -25,7 +25,7 @@ COPY . /app/
 EXPOSE 8000
 
 # Устанавливаем переменные окружения для Django
-ENV DJANGO_SETTINGS_MODULE=myproject.settings
+ENV DJANGO_SETTINGS_MODULE='TNS.settings'
 ENV PYTHONUNBUFFERED=1
 
 # Запускаем миграции и стартуем сервер
