@@ -2,9 +2,9 @@ name: Django CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "deploy" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "deploy" ]
 
 jobs:
   build:
@@ -17,14 +17,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
+    - name: Build Docker Image and Push to GHCR, Docker Hub, or AWS ECR
+      uses: GlueOps/github-actions-build-push-containers@v0.4.1
       with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-    - name: Run Tests
-      run: |
-        python manage.py test
+        # The Dockerfile filename
+        dockerfile: 'Dockerfile.django'
+        # The container registry to push the image to
+        registry: ghcr.io
+        # The username for authentication to the container registry (defaults to the github.actor)
+        registry-username: ${{ github.actor }}
+        # Docker image is named after repository
+        image_name: ${{ github.repository }}-django
+              
